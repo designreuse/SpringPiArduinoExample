@@ -1,0 +1,141 @@
+body{
+    background: url("/app/img/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1.title{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+section.mybox{
+    background: rgba(255, 255, 255, 0.7);
+    border-color: #42e047;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+    padding: 0em 1em 1em 1em;
+}
+
+#panels div.field{
+    min-width: 150px;
+    padding: 0.3em;
+}
+
+section h2.title{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+section img#update{
+    float: right;
+    padding-top: 0.5em;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+section div.field > p{
+    display: inline-block;
+}
+
+section div.field > p.property{
+    font-weight: bold;
+    min-width: 200px;
+}
+
+section#states p.state-0{
+    background: rgba(251, 0, 37, 0.2);
+    border-radius: 5px;
+    display: inline;
+    font-weight: bold;
+    padding: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section#states p.state-1{
+    background: rgba(242, 183, 78, 0.2);
+    border-radius: 5px;
+    display: inline;
+    font-weight: bold;
+    padding: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section#states p.state-2{
+    background: rgba(42, 176, 255, 0.2);
+    border-radius: 5px;
+    display: inline;
+    font-weight: bold;
+    padding: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section#states p.state-3{
+    background: rgba(66, 224, 71, 0.2);
+    border-radius: 5px;
+    display: inline;
+    font-weight: bold;
+    padding: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section#irrigate div#fixed-irrigate{
+    display: none;
+    padding: 1em;
+}
+
+section#irrigate div#fixed-irrigate label h4{
+    width: 100px;
+}
+
+section#irrigate div#fixed-irrigate .datepicker{
+    background: rgba(255, 255, 255, 0.4);
+    border-color: #FFF;
+    border-radius: 5px;
+}
+
+section#irrigate div#scheduled-irrigate label h4{
+    width: 100px;
+}
+
+section#irrigate div#scheduled-irrigate{
+    display: none;
+    padding: 1em;
+}
+
+section#irrigate div#scheduled-irrigate .timepicker{
+    background: rgba(242, 183, 78, 0.4);
+    border-color: #F2B74E;
+    border-radius: 5px;
+}
+
+section#plotly div.plotly-graph{
+    width: 100%;
+    text-align: center;
+}
+
+section#plotly div.plotly-graph img{
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+section#log span.date{
+    color: #c9151a;
+    font-weight: bold;
+}
+
+/* GENERAL */
+
+.aRigth{
+    float: right;
+}
